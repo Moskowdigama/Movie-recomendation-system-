@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load data
-movies = pickle.load(open('movies.pkl', 'rb'))
+movies = pickle.load(open('movies (1).pkl', 'rb'))
 
 # Recompute similarity
 tfidf = TfidfVectorizer(stop_words='english')
